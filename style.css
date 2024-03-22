@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #777;
+}
+
+#canvas {
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+#autoplay {
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(36deg, #4345f6, #87c5b5);
+  border: none;
+  border-radius: 12px;
+  font-size: 30px;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+#autoplay:active {
+  background: linear-gradient(327deg, #87c5b5, #4345f6);
+  transform: scale(0.95);
+}
